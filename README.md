@@ -77,29 +77,6 @@ gorilla-bass/
 5. Observe o comportamento automático dos humanos
 6. Vença todos os humanos ou seja derrotado
 
----
-
-## 🧪 Critérios atendidos (100/100 pontos)
-
-- ✅ Interface HTML com imagens e status
-- ✅ Botões com efeitos e eventos
-- ✅ DOM atualizado dinamicamente
-- ✅ Funções bem organizadas
-- ✅ Uso de arrays e laços para controle de humanos
-- ✅ Logs e mensagens no HTML
-- ✅ LocalStorage para progresso
-- ✅ Verificação de fim de jogo
-- ✅ CSS externo e responsivo
-- ✅ Áudio e animações integradas
-
----
-
-## 📷 Screenshots (opcional)
-
-Adicione aqui imagens do jogo em ação (capturas de tela).
-
----
-
 ## 📌 Observações
 
 - Projeto desenvolvido com foco educacional.
