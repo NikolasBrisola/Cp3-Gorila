@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gorila x 100 Humanos</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <div id="campo">
+    <div id="linha-humanos">
+      <img src="assets/grupo.png" id="img-humanos" alt="Imagem dos Humanos">
+    </div>
+
+    <div id="linha-gorila">
+      <img src="assets/goriladnv.png" id="img-gorila" alt="Imagem do Gorila">
+    </div>
+  </div>
+
+  <div id="hud">
+    <h2>Status do Gorila</h2>
+    <p>Vida: <span id="vida-gorila">100</span></p>
+    <p>Humanos restantes: <span id="humanos-restantes">100</span></p>
+    <p>Ataques realizados: <span id="ataques-gorila">0</span></p>
+
+    <div id="botoes">
+      <button onclick="atacar()">Atacar</button>
+      <button onclick="defender()">Defender</button>
+      <button onclick="curar()">Curar</button>
+    </div>
+
+    <div id="log">
+      <p>⚔️ Batalha iniciada!</p>
+    </div>
+  </div>
+
+</body>
+</html>
