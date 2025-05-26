@@ -60,3 +60,9 @@ function atacar() {
   }
 }
 
+function defender() {
+  defendendo = true;
+  registrarLog("🛡️ O gorila se defendeu e tomará menos dano no próximo ataque.");
+  setTimeout(acaoHumanos, 1000);
+}
+
