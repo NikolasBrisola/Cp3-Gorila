@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url('../assets/batalha.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#campo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#linha-humanos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 40%;
+}
+
+#linha-gorila {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 40%;
+}
+
+#img-humanos {
+  width: 150px;
+  z-index: 5;
+}
+
+#img-gorila {
+  width: 150px;
+  z-index: 5;
+  transition: transform 0.3s;
+}
+
+#img-gorila.ataque {
+  transform: translateX(-20px) scale(1.1);
+}
+
+
+
+
