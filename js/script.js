@@ -49,12 +49,12 @@ function atacar() {
     }
   }
 
-  registrarLog(`💥 O gorila atacou! ${mortos} humanos foram derrotados.`);
+  registrarLog(`💥 O gorila atacou! ${mortos} os humanos foram derrotados.`);
   animarHumanos();
   atualizarHUD();
 
   if (humanos.every(h => !h)) {
-    fimDeJogo("Vitória do gorila!");
+    fimDeJogo("🦍 Vitória do gorila!");
   } else {
     setTimeout(acaoHumanos, 1000);
   }
@@ -95,7 +95,7 @@ function acaoHumanos() {
   if (vidaGorila <= 0) {
     vidaGorila = 0;
     atualizarHUD();
-    fimDeJogo("O gorila foi derrotado!");
+    fimDeJogo("O gorila 🦍 foi derrotado!");
   } else {
     atualizarHUD();
   }
