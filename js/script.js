@@ -74,3 +74,37 @@ function curar() {
   setTimeout(acaoHumanos, 1000);
 }
 
+function acaoHumanos() {
+  let atacantes = humanos.filter(h => h).length;
+  let danoTotal = 0;
+
+  for (let i = 0; i < atacantes; i++) {
+    if (Math.random() < 0.1) {
+      danoTotal += Math.floor(Math.random() * 3) + 1;
+    }
+  }
+
+  if (defendendo) {
+    danoTotal = Math.floor(danoTotal / 2);
+    defendendo = false;
+  }
+
+  vidaGorila -= danoTotal;
+  registrarLog(`👥 Os humanos atacaram e causaram ${danoTotal} de dano.`);
+
+  if (vidaGorila <= 0) {
+    vidaGorila = 0;
+    atualizarHUD();
+    fimDeJogo("O gorila foi derrotado!");
+  } else {
+    atualizarHUD();
+  }
+}
+
+function animarHumanos() {
+  imgHumanos.classList.add("shake");
+  setTimeout(() => imgHumanos.classList.remove("shake"), 400);
+}
+
+// Inicializar HUD
+atualizarHUD();
