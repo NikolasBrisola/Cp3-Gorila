@@ -66,3 +66,11 @@ function defender() {
   setTimeout(acaoHumanos, 1000);
 }
 
+function curar() {
+  let cura = Math.floor(Math.random() * 15) + 5;
+  vidaGorila = Math.min(vidaGorila + cura, 100);
+  registrarLog(`💚 O gorila se curou em ${cura} pontos de vida.`);
+  atualizarHUD();
+  setTimeout(acaoHumanos, 1000);
+}
+
