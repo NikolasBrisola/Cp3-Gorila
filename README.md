@@ -1,83 +1,56 @@
-# 🦍 Gorila x 100 Humanos - Projeto CP3
+# 🦍 Gorila x 100 Humanos
 
-Bem-vindo ao repositório do projeto **Gorila x 100 Humanos**, desenvolvido como parte da avaliação CP3 da disciplina de Desenvolvimento Front-End.
+Este projeto foi desenvolvido como parte da avaliação CP3 da disciplina de **Desenvolvimento Front-End**, no curso de **Análise e Desenvolvimento de Sistemas** da **FIAP**.
 
-## 🎮 Sobre o Jogo
+## 🎮 Descrição
 
-Neste jogo inspirado em clássicos como *Pokémon* e *Doom*, você controla um gorila em uma batalha contra 100 humanos. O gorila pode **atacar**, **defender** e **curar-se**, enquanto os humanos reagem automaticamente, cada vez mais inteligentes.
+"Gorila x 100 Humanos" é um jogo simples construído com **HTML**, **CSS** e **JavaScript puro**, cujo objetivo é simular uma batalha entre um gorila controlado pelo jogador e um grupo de 100 humanos com comportamentos automáticos.
 
-O jogo é feito 100% com **HTML5**, **CSS3** e **JavaScript puro**, sem bibliotecas externas.
+O projeto visa aplicar os conceitos fundamentais do front-end, como manipulação do DOM, lógica de programação, interações com o usuário e uso de armazenamento local.
 
----
+## Tecnologias Utilizadas
 
-## 📁 Estrutura do Projeto
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- localStorage  
 
-gorilla-bass/
-├── index.html
-├── README.md
-├── /css
-│ └── style.css
-├── /js
-│ └── script.js
-├── /assets
-│ ├── gorila.png
-│ ├── humano.png
-│ ├── batalha.jpeg
-│ └── som-ataque.mp3
+## Funcionalidades
 
+- Interface com botões de ações (Atacar, Defender, Curar)  
+- Execução de turnos e ações automáticas dos inimigos (IA simples)  
+- Registro de eventos em tempo real via logs  
+- Armazenamento de dados com localStorage  
+- Lógica de vitória ou derrota baseada em pontos de vida  
 
+## Requisitos
 
----
+- Navegador moderno (Google Chrome, Firefox, Edge, etc.)  
+- Não é necessário servidor ou instalação adicional  
 
-## ✅ Funcionalidades
+## Instruções para Execução
 
-- 🎯 Interface interativa com gorila e humanos
-- 🖱️ Ações por botões: ataque, defesa e cura
-- 📉 Atualização dinâmica de vida e contadores
-- 🔁 Humanos com IA básica e movimentação reativa
-- 💾 Salvamento de progresso via `localStorage`
-- 🔊 Efeitos sonoros de ataque
-- 📝 Logs dinâmicos da batalha
-- 🎨 Estilização temática estilo “batalha Pokémon”
-- ⚰️ Verificação de fim de jogo
-
----
-
-## 🧠 Tecnologias utilizadas
-
-- HTML5
-- CSS3 (externo)
-- JavaScript (puro)
-- DOM API
-- LocalStorage
-- Flexbox para layout
-- Animações com `@keyframes`
-
----
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/gorila-vs-100-humanos.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd gorila-vs-100-humanos
+   ```
+3. Abra o arquivo `index.html` em seu navegador.
 
 ## 👥 Integrantes do grupo
 
 | Nome                     | RM       |
 |--------------------------|----------|
-| Felipe Ferrete           | RM123456 |
-| Gustavo Bosak            | RM234567 |
-| Nikolas Brisola          | RM345678 |
+| Felipe Ferrete           | RM562999 |
+| Gustavo Bosak            | RM566315 |
+| Nikolas Brisola          | RM564371 |
 
+> Todos os integrantes participaram ativamente do desenvolvimento do HTML, CSS e JS em call, com mais de 15 commits somados no repositório.
 
-> Todos os integrantes participaram ativamente do desenvolvimento do HTML, CSS e JS, com mais de 15 commits somados no repositório.
+## Considerações Finais
 
----
-
-## 💡 Como jogar
-
-1. Clone o repositório ou baixe o .zip
-2. Extraia os arquivos
-3. Abra o `index.html` em seu navegador moderno
-4. Clique nos botões para atacar, defender ou se curar
-5. Observe o comportamento automático dos humanos
-6. Vença todos os humanos ou seja derrotado
-
-## 📌 Observações
-
-- Projeto desenvolvido com foco educacional.
+Este projeto foi elaborado com fins didáticos, com o objetivo de consolidar o aprendizado em desenvolvimento web e lógica de programação. Sugestões e melhorias são bem-vindas para fins de evolução contínua.
 - Código sem dependências externas, compatível com navegadores modernos.
