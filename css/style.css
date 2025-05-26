@@ -54,6 +54,7 @@ body {
   transform: translateX(-20px) scale(1.1);
 }
 
+
 #hud {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
@@ -87,5 +88,17 @@ button:hover {
   border-radius: 5px;
   font-size: 0.9em;
 }
+/* Tremor de dano */
+@keyframes shake {
+  0% { transform: translate(0px, 0px); }
+  20% { transform: translate(-5px, 0px); }
+  40% { transform: translate(5px, 0px); }
+  60% { transform: translate(-5px, 0px); }
+  80% { transform: translate(5px, 0px); }
+  100% { transform: translate(0px, 0px); }
+}
 
+.shake {
+  animation: shake 0.4s ease;
+}
 
